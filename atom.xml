@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Christopher Gandrud</title>
+ <link href="http://christophergandrud.github.com/atom.xml" rel="self"/>
+ <link href="http://christophergandrud.github.com"/>
+ <updated>2012-06-06T14:52:55+09:00</updated>
+ <id>http://christophergandrud.github.com</id>
+ <author>
+   <name>Christopher Gandrud</name>
+   <email>gandrud@yonsei.ac.kr</email>
+ </author>
+
+ 
+ <entry>
+   <title>Slidify:</title>
+   <link href="http://christophergandrud.github.com/2012/06/04/slidify-its-all-coming-together-fast"/>
+   <updated>2012-06-04T00:00:00+09:00</updated>
+   <id>http://christophergandrud.github.com/2012/06/04/slidify-its-all-coming-together-fast</id>
+   <content type="html">&lt;p&gt;Tools for using &lt;strong&gt;R&lt;/strong&gt;/&lt;strong&gt;RStudio&lt;/strong&gt; as a one-stop shop for research and presentation have been coming out quickly. I think this one has a good shot of being included in future releases of &lt;strong&gt;RStudio&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;The other day I ran across a new &lt;strong&gt;R&lt;/strong&gt; package called &lt;a href='http://ramnathv.github.com/slidify/'&gt;slidify&lt;/a&gt; by &lt;a href='http://rstats.posterous.com/'&gt;Ramnath Vaidyanathan&lt;/a&gt;. In &lt;a href='http://christophergandrud.blogspot.kr/2012/05/knitr-slideshows-and-dropbox.html'&gt;previous&lt;/a&gt; &lt;a href='http://christophergandrud.blogspot.kr/2012/05/aspirational-useful-deckrb-with.html'&gt;posts&lt;/a&gt; I had been messing around with &lt;strong&gt;Pandoc&lt;/strong&gt; and &lt;strong&gt;deck.rb&lt;/strong&gt; to turn &lt;code&gt;knitr&lt;/code&gt; Markdown files into HTML presentations.&lt;/p&gt;
+
+&lt;p&gt;Slidify has two key advantages over these approaches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;it can directly convert &lt;code&gt;.Rnw&lt;/code&gt; files in &lt;strong&gt;R&lt;/strong&gt; into slideshows, i.e. no toggling between &lt;strong&gt;R&lt;/strong&gt; and the Terminal,&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;there are lots of slideshow options (&lt;a href='http://imakewebthings.com/deck.js/'&gt;deck.js&lt;/a&gt;, &lt;a href='http://paulrouget.com/dzslides/'&gt;dzslides&lt;/a&gt;, &lt;a href='https://code.google.com/p/html5slides/'&gt;html5slides&lt;/a&gt;, &lt;a href=''&gt;shower&lt;/a&gt;, and &lt;a href='http://www.w3.org/Talks/Tools/Slidy2/'&gt;slidy&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;#8217;s not on CRAN yet, but it worked pretty well for me.&lt;/p&gt;
+
+&lt;p&gt;The syntax is simple.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In the Markdown document demarcate new slides with &lt;code&gt;---&lt;/code&gt; (it has to be three dashes and there can&amp;#8217;t be spaces after the dashes).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;When you want to convert your &lt;code&gt;.Rnw&lt;/code&gt; into a presentation just type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  library(slidify)
+  slidify(&amp;quot;presentation.Rnw&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The default style is &lt;strong&gt;html5slides&lt;/strong&gt;. The package isn&amp;#8217;t that well documented right now, but to change to a different style just use &lt;code&gt;framework&lt;/code&gt;. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    slidify(&amp;quot;presentation.Rnw&amp;quot;, framework = &amp;quot;deck.js&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I used slidify to put together a slideshow that advertises an intro applied stats course I&amp;#8217;m teaching next semester. The slideshow is &lt;a href='https://dl.dropbox.com/u/12581470/Presentations/ad_DataAnalysis_2012/ad_data.html'&gt;here&lt;/a&gt;. (You can see that I&amp;#8217;m trying to attract social science students who are reluctant to take a stats class).&lt;/p&gt;
+
+&lt;p&gt;I sloppily removed the default Slidify logo by deleting the &lt;code&gt;images&lt;/code&gt; folder in the &lt;code&gt;html5slides&lt;/code&gt; folder slidify creates.&lt;/p&gt;
+
+&lt;h3 id='ps'&gt;PS&lt;/h3&gt;
+
+&lt;p&gt;Oh, also you might notice that I&amp;#8217;m using &lt;a href='https://github.com/'&gt;github&lt;/a&gt; to host the course. I hope to blog about this in the near future.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>knitr, Slidy, Dropbpox</title>
+   <link href="http://christophergandrud.github.com/R/2012/06/03/knitr-slidy-dropbpox"/>
+   <updated>2012-06-03T00:00:00+09:00</updated>
+   <id>http://christophergandrud.github.com/R/2012/06/03/knitr-slidy-dropbpox</id>
+   <content type="html">&lt;p&gt;I just noticed that &lt;a href='http://lamages.blogspot.com/2012/05/interactive-html-presentation-with-r.html'&gt;Markus Gesmann&lt;/a&gt; has a nice post on using &lt;strong&gt;RStudio&lt;/strong&gt;, &lt;code&gt;knitr&lt;/code&gt;, &lt;strong&gt;Pandoc&lt;/strong&gt;, and &lt;strong&gt;Slidy&lt;/strong&gt; to create slideshows. After my &lt;a href='http://christophergandrud.blogspot.com/2012/05/aspirational-useful-deckrb-with.html'&gt;recent attempt&lt;/a&gt; to use &lt;code&gt;deck.rb&lt;/code&gt; to turn a &lt;strong&gt;Markdown&lt;/strong&gt;/&lt;code&gt;knitr&lt;/code&gt; file into a deck.js presentation I caved in and also decided to go with &lt;a href='http://johnmacfarlane.net/pandoc/README.html'&gt;Pandoc&lt;/a&gt; and &lt;a href='http://www.w3.org/Talks/Tools/Slidy2/'&gt;Slidy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For me, Slidy produced the cleanest slides of the three formats that Pandoc supports. The presentation is &lt;a href='http://dl.dropbox.com/u/12581470/Presentations/LegViolence/leg_violence_present1.html'&gt;here&lt;/a&gt; and the source is &lt;a href='http://dl.dropbox.com/u/12581470/Presentations/LegViolence/leg_violence_present1.Rmd'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The only thing I really disliked was having to use &lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; or something similar to keep the text from bunching up at the top of the slides, which looked strange when projected onto a screen. You can customise Slidy CSS files, but I haven&amp;#8217;t got around to that yet.&lt;/p&gt;
+
+&lt;p&gt;In this post I don&amp;#8217;t want to duplicate what Markus Gesmann has already done. Instead, I wanted to mention two things that I noticed/thought about while making my presentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The new &lt;strong&gt;MathJax&lt;/strong&gt; syntax &lt;a href='http://blog.rstudio.org/2012/05/25/mathjax-syntax-change/'&gt;implemented in RStudio 0.96.227&lt;/a&gt; doesn&amp;#8217;t seem to work with Pandoc. It just renders &lt;em&gt;latex&lt;/em&gt; as if it was part of the equation rather than the qualifier to the equation begin delimiter. To get around this I just used the regular old &lt;code&gt;$ $&lt;/code&gt; and &lt;code&gt;$$ $$&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;It&amp;#8217;s pretty easy to host presentations with &lt;strong&gt;Dropbox&lt;/strong&gt;. Just make sure all of your files are in the same folder in your &lt;code&gt;Public&lt;/code&gt; folder. If you want output from &lt;code&gt;knitr&lt;/code&gt; to go into and be retrieved from someplace else, you can use the desired base URL for these files by adding this code &lt;em&gt;after&lt;/em&gt; the Pandoc title information:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  ```{r setup, echo=FALSE}
+
+  # Set up R so that figures save and load properly.    
+  opts_knit$set(base.url = &amp;quot;&amp;quot;)
+
+  ```&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Where &lt;code&gt;base.url = &amp;quot;&amp;quot;&lt;/code&gt; includes the URL of the folder you want the output stored in.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All items in a folder in Dropbox&amp;#8217;s &lt;code&gt;Public&lt;/code&gt; folder have the same base URL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;I learned about &lt;code&gt;base.url&lt;/code&gt; from &lt;a href='http://yihui.name/'&gt;Yihui Xie&amp;#8217;s&lt;/a&gt; source code for his &lt;code&gt;knitr&lt;/code&gt;/Markdown &lt;a href='https://github.com/yihui/knitr/blob/master/inst/examples/knitr-minimal.md'&gt;example on github&lt;/a&gt;. He uses it to save and retrieve figures from other folders on github.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='extra_pandoc_code'&gt;Extra: Pandoc Code&lt;/h3&gt;
+
+&lt;p&gt;I used the following Pandoc code in the Terminal to convert the &lt;code&gt;.md&lt;/code&gt; file to Slidy:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pandoc -t slidy leg_violence_present1.md -o leg_violence_present1.html -s -i -S --mathjax&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ 
+</feed>
