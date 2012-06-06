@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Slidify:"
-description: ""
-category: 
-tagline: "It's all coming together fast"
+title: "Slidify"
+Pages header: Slidify
+tagline: It's all coming together fast
 tags: [r-project, slideshows, knitr]
 ---
 {% include JB/setup %}
