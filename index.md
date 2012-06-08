@@ -5,11 +5,12 @@ tagline: Blog, Research, Teach
 ---
 {% include JB/setup %}
 
-
-### This site is **Under Development**. 
-
-### I am moving my current website from [http://christophergandrud.blogspot.com/](http://christophergandrud.blogspot.com/).
-
+<h3 style ="text-align:center;">
+This site is Under Development. 
+<br/>
+<br/>
+I am moving from my previous website at: <a href = "http://christophergandrud.blogspot.com/">http://christophergandrud.blogspot.com/</a>.
+</h3>
 
 -----
 -----
