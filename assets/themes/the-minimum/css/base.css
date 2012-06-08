@@ -69,7 +69,7 @@ Lists from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 No styleguide reference.
 */
 
-ul, ol { margin: 0; padding: 0 0 0 40px; }
+ul, ol {font-size: 20pt; margin: 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 

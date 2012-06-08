@@ -7,28 +7,14 @@ tagline: Yonsei University
 ---
 {% include JB/setup %}
 
------
-
-## SPRING 2012
-
------
-
-### INT4021: The Global Monetary & Financial System
-
-- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/GMFS/Global_monetary_and_financial.pdf)
-
-### EIC3120: International Political Economy
-
-- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/EIC3120/EIC3102_IPE_Syllabus.pdf)
-
-### INT3040: Understanding Global Affairs
-
-- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/Intro_IR/intro_IR.pdf)
+<style>
+    li, p { font-size: 11pt; line-height: 125%; margin: 20px; }
+</style>
 
 -----
-
-## FALL 2012
-
+<h2 style="text-align:center;">
+Fall 2012
+</h2>
 ----
 
 ### Introduction to Social Science Data Analysis
@@ -40,11 +26,34 @@ tagline: Yonsei University
 ### War, Peacebuilding, and Reconstruction
 
 - Syllabus [PDF](https://dl.dropbox.com/u/12581470/Teaching/Peacebuilding/WarPeacebuildingReconstruction_Syllabus.pdf)
+<br />
+<br />
+
+-----
+<h2 style="text-align:center;">
+Spring 2012
+</h2>
+-----
+
+### INT4021: The Global Monetary & Financial System
+
+
+- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/GMFS/Global_monetary_and_financial.pdf)
+
+### EIC3120: International Political Economy
+
+- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/EIC3120/EIC3102_IPE_Syllabus.pdf)
+
+### INT3040: Understanding Global Affairs
+
+- Syllabus [PDF](http://dl.dropbox.com/u/12581470/Teaching/Intro_IR/intro_IR.pdf)
+<br />
+<br />
 
 ----
-
-## OTHER TEACHING MATERIALS
-
+<h2 style="text-align:center;">
+Other Teaching Materials
+</h2>
 -----
 
 ### Lyx and JabRef for LaTeX/BibTeX Short Course
@@ -52,6 +61,8 @@ tagline: Yonsei University
 [Coursepack](http://dl.dropbox.com/u/12581470/Lyx_coursepack.pdf) for a introductory class in Lyx and JabRef. It covers a number of regularly used tasks including making an article, handling float figures and tables, integrating a bibliography, and making basic Beamer presentations. Please contact me for the activity files.
 
 > Note: the Coursepack is currently for Lyx 1.6, rather than the more recently released version 2.0. However, apart from a few of the button symbols, most of the material still applies.
+<br />
+<br />
 
 ### Small How-To Presentations:
 

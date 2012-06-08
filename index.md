@@ -15,18 +15,9 @@ I am moving from my previous website at: <a href = "http://christophergandrud.bl
 -----
 -----
 
-<div class="span9 column">
-		<p class="pull-right">
-		{% if page.previous.url %} 
-		<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
-		<i class="icon-chevron-left"></i></a> 
-		{% endif %}   
-		{% if page.next.url %} 	
-		<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
-		<i class="icon-chevron-right"></i></a> 	
-		{% endif %} 
-		</p>  
-</div>
+<style>
+    li, p { font-size: 11pt; line-height: 125%; margin: 20px; }
+</style>
 
 <div id="home">
 
@@ -41,7 +32,7 @@ I am moving from my previous website at: <a href = "http://christophergandrud.bl
         {% if post.post-link %}
         <h1><a href="{{ post.post-link }}" title="External link">{{ post.title }}</a> <a class="permalink" href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">&diams;</a></h1>
         {% else %}
-        <h1>{{ post.title }} <a class="glyph-permalink" href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">&diams;</a></h1>
+        <h1>{{ post.title }} <a href="{{ post.url }}" title="Permanent link to: '{{ post.title }}'">&diams;</a></h1>
         {% endif %}
         {{ post.content }}
       </div>
@@ -54,5 +45,7 @@ I am moving from my previous website at: <a href = "http://christophergandrud.bl
   </ul>
 
 </div>
+
+
 
 

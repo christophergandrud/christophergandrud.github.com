@@ -85,6 +85,7 @@ ul,
 ol,
 dl,
 img {
+  font-size: 11pt;
   margin-top: 0;
   margin-bottom: 1.625em;
 }
