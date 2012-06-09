@@ -25,7 +25,8 @@
     {% include JB/comments %}
   </div>
   
-  <div class="span4">
+  <div class="span3">
+    <div class="well">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 
@@ -36,5 +37,6 @@
     {% include JB/tags_list %}
     </ul>
   {% endunless %}  
+  </div>
   </div>
 </div>

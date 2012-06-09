@@ -91,11 +91,7 @@ Work in Progress
 <br />
 <br />
 
-<table class="table table-striped">
-
-  <tbody>
-    <tr>
-      <td>
+<div class = "well">
       <br />
 
         <ul>
@@ -105,9 +101,7 @@ Work in Progress
             <li>Putting Data Back in Time: Getting the Most Out of Hazard Ratios in Political Science </li><br />
             <li>I Honestly Don't Know: Credibly Committing to Bad Information</li><br />
         </ul>
-      </td>
-    </tr>
+</div>
     
-  </tbody>
-</table>     
+
   
