@@ -23,6 +23,8 @@ Fall 2012
 
 - Also, see the [course advertisement](https://dl.dropbox.com/u/12581470/Presentations/ad_DataAnalysis_2012/ad_data.html#1) for more information about why you should take this course.
 
+- The course wiki (under development) is [HERE](https://github.com/christophergandrud/Introduction_to_Statistics_and_Data_Analysis_Yonsei/wiki).
+
 ### War, Peacebuilding, and Reconstruction
 
 - Syllabus [PDF](https://dl.dropbox.com/u/12581470/Teaching/Peacebuilding/WarPeacebuildingReconstruction_Syllabus.pdf)
