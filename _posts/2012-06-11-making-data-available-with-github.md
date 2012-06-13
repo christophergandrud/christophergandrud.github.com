@@ -7,6 +7,11 @@ tags: [r-Project, GitHub, reproducible research, web hosting, knitr]
 ---
 {% include JB/setup %}
 
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-9FnUkSkTYKY/T9h15TFF4_I/AAAAAAAAFYc/RfAuFltOonE/s1600/githubdata.png" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" height="280" src="http://4.bp.blogspot.com/-9FnUkSkTYKY/T9h15TFF4_I/AAAAAAAAFYc/RfAuFltOonE/s320/githubdata.png" width="320" /></a>
+</div>
+
+
 [GitHub](https://github.com/) is designed for collaborating on coding projects. Nonetheless, it is also a potentially great resource for researchers to make their data publicly available. Specifically you can use it to:
 
 - **store** data in the cloud for future use (for free), 
