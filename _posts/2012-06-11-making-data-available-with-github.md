@@ -11,7 +11,7 @@ tags: [r-Project, GitHub, reproducible research, web hosting, knitr]
 <a href="http://4.bp.blogspot.com/-9FnUkSkTYKY/T9h15TFF4_I/AAAAAAAAFYc/RfAuFltOonE/s1600/githubdata.png" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" height="280" src="http://4.bp.blogspot.com/-9FnUkSkTYKY/T9h15TFF4_I/AAAAAAAAFYc/RfAuFltOonE/s320/githubdata.png" width="320" /></a>
 </div>
 
-**Update (15 June 2012):** See [this post]() for instructions on how to download GitHub based data into **R** if you are getting the error about an `SSL certificate problem`. 
+**Update (15 June 2012):** See [this post](http://christophergandrud.github.com/2012/06/15/update-to-data-on-github-post/) for instructions on how to download GitHub based data into **R** if you are getting the error about an `SSL certificate problem`. 
 
 
 

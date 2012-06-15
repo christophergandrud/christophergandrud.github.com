@@ -3,7 +3,7 @@ layout: post
 title: "Update to Data on Github Post"
 description: ""
 tagline: "Solution to an RCurl problem"
-tags: [r-project, reproducible research, GitHub]
+tags: [r-project, reproducible research, GitHub, RCurl]
 ---
 {% include JB/setup %}
 
