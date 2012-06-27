@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Does a Blogger Do?"
+title: "Salmon's Rules for Researcher/Bloggers"
 description: ""
 tagline: "Lessons for the blogger-researcher"
 tags: [blogging, research, new ideas]
