@@ -5,7 +5,7 @@ tagline: Blog, Research, Teach
 ---
 {% include JB/setup %}
 
-<div class="well">
+<div class="alert">
 <h3 style ="text-align:center;">
 This site is Under Development. 
 <br/>
