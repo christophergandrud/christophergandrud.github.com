@@ -13,7 +13,7 @@ group: navigation
 
 <br />
 <h2 style="text-align:center;">
-Working Papers/Under Review
+Papers
 </h2>
 <br />
 <br />
@@ -56,7 +56,8 @@ Working Papers/Under Review
       <br />
         <h3>Competing Risks and Deposit Insurance Governance Convergence</h3><br/>
         
-        <span class="about">          
+        <span class="about">
+            <p>Forthcoming IPSR</p>          
             <blockquote><strong>Keywords:</strong> international policy diffusion, competing risks analysis, delegation, banking crisis, IMF, deposit insurance</blockquote>
 
 
