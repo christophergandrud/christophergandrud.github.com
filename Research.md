@@ -72,7 +72,8 @@ Papers
       <br />
         <h3>Who is Watching?: A Multi-state Event History Analysis of Financial Supervision Governance Diffusion</h3><br/>
         
-        <span class="about">          
+        <span class="about">  
+        <p>Revise and Resubmit RIPE</p>        
             <blockquote><strong>Keywords:</strong> international policy diffusion, multi-state event history analysis, financial supervision</blockquote>
 
 
