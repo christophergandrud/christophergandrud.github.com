@@ -6,5 +6,6 @@
 
 # Make cars scatter plot
   library(ggplot2)
-  qplot(cars$dist, cars$speed) +
-        theme_bw()
+  Plot <- qplot(cars$dist, cars$speed) +
+                theme_bw()
+  print(Plot)
