@@ -3,6 +3,7 @@ layout: page
 title: Home
 tagline: Blog, Research, Teach
 ---
+
 {% include JB/setup %}
 
 <div class="alert">
