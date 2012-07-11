@@ -13,7 +13,7 @@ tags: [R-project, remote sourcing]
 
 <p>Imagine we have a .R source code file like this:</p>
 
-<pre><code># Make cars scatter plot
+<pre><code class="r"># Make cars scatter plot
 library(ggplot2)
 Plot &lt;- qplot(cars$dist, cars$speed) +
             theme_bw()

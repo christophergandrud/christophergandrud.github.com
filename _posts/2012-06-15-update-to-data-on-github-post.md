@@ -23,7 +23,6 @@ The solution to this problem is pretty straightforward. As the RCurl FAQ page po
 So, if you get the above error message just use this new code:
 
     library(RCurl)
-    library(foreign)
 
     url <- "https://raw.github.com/christophergandrud/Disproportionality_Data/master/Disproportionality.csv"
 

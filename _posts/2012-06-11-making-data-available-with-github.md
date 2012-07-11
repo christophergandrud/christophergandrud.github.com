@@ -99,7 +99,6 @@ Once you set up the page described in Step 5, other researchers can easily downl
 Specific data files can be directly downloaded into **R** with the `foreign` and `RCurl` packages (and `textConnection` from the `base` package). To download my example data into **R** just type:  
 
         library(RCurl)
-        library(foreign)
 
         url <- "https://raw.github.com/christophergandrud/Disproportionality_Data/master/Disproportionality.csv"
 
