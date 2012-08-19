@@ -21,6 +21,20 @@ Papers
 <table class="table table-striped">
 
   <tbody>
+  
+      <tr>
+      <td>
+      <br />
+        <h3>Does Presidential Partisanship Affect Fed Inflation Forecasts?</h3><br/>
+        
+        <span class="about">
+            <blockquote><strong>Keywords:</strong> forecast bias, Federal Reserve, rational partisan cycle, heuristics, interest rate, inflation</blockquote>
+
+            Download <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2125283">PDF</a><br />
+	    </span>
+	  </td>
+    </tr>
+  
     <tr>
       <td>
       <br />
@@ -29,7 +43,7 @@ Papers
         <span class="about">
             <blockquote><strong>Keywords:</strong> legislatures, violence, electoral system, institutional design, democratic consolidation</blockquote>
 
-            Download <a href="http://dl.dropbox.com/u/12581470/Working_Papers/Gandrud_Legislative_Violence_WP.pdf">PDF</a><br />
+            Download <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2044278">PDF</a><br />
 
             <a href="http://dl.dropbox.com/u/12581470/Graphs/leg.violence.webpage.html">Map of legislative violence (1980 - 2011)</a><br />
 	    </span>
@@ -97,7 +111,6 @@ Work in Progress
       <br />
 
         <ul>
-            <li>Is there a Partisan Bias to Federal Reserve Inflation Forecast? (with Cassandra Grafstrom)</li><br />
             <li>What the Fed Says: Content Analysis of US Federal Reserve Governor Speeches (with Kevin Young)</li><br />
             <li>Building Better Bad Banks (with Mark Hallerberg)</li><br />
             <li>Putting Data Back in Time: Getting the Most Out of Hazard Ratios in Political Science </li><br />
