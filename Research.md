@@ -28,6 +28,8 @@ Papers
         <h3>Does Presidential Partisanship Affect Fed Inflation Forecasts?</h3><br/>
         
         <span class="about">
+            with Cassandra Grafström</br><br/>
+            
             <blockquote><strong>Keywords:</strong> forecast bias, Federal Reserve, rational partisan cycle, heuristics, interest rate, inflation</blockquote>
 
             Download <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2125283">PDF</a><br />
